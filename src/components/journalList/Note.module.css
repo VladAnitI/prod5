@@ -1,0 +1,28 @@
+.delete{
+    width: 40px;
+    height: 40px;
+    color: red;
+    position: absolute;
+    margin: -65px 0 0 380px;
+    cursor: pointer;
+}
+
+.note{
+    background-color: #3D4A69;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.note.active{
+    background-color: #91adf3;
+}
+
+.text{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 360px;
+}

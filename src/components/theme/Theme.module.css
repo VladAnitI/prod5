@@ -1,0 +1,37 @@
+.theme-container {
+	width: 70px;
+	height: 40px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.theme-toggler {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	transition: 0.25s;
+}
+
+.theme-toggler.active {
+	transform: translateX(25px);
+}
+
+.theme-container.white{
+    border: #3D4A69 3px solid;
+}
+
+.theme-container.dark{
+    border: #C4AB92 3px solid;
+}
+
+.theme-toggler.white{
+    background-color: #3D4A69;
+}
+
+.theme-toggler.dark{
+    background-color: #C4AB92;
+}

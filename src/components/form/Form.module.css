@@ -1,0 +1,85 @@
+.main{
+    height: 10px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.title{
+    border-bottom: 1px solid white;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+
+.title.textarea{
+    border: 0;
+}
+
+.tInput{
+    border: 0;
+    background: 0;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 10px;
+    transition: 0.25;
+}
+
+.tInput.white{
+    color: #3D4A69;
+}
+
+.tInput.dark{
+    color: #d4d4d4;
+}
+
+.tInput:active{
+    border: 0;
+}
+
+.form-wrapper > div > span{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+}
+
+.iconFont{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.textarea{
+    width: 98.5%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    resize: none;
+    border: 1px solid white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.button{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.button.white{
+    background-color: #3D4A69;
+    border: 1px solid white;
+    color: white;
+}
+
+.button.dark{
+    background-color: #C4AB92;
+    border: 1px solid white;
+    color: #3D4A69;
+}
+
+.noneCorrect{
+    background-color: rgba(255, 0, 0, 0.362);
+}

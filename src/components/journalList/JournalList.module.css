@@ -1,0 +1,16 @@
+.wrapper{
+    width: 444px;
+    flex-basis: 65%;
+}
+
+.button{
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

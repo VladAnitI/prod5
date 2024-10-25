@@ -1,0 +1,31 @@
+.wrapper{
+    height: 100vh;
+    transition: 0.25s;
+    padding: 0 200px;
+}
+
+.wrapper.white {
+    background-color: #C4AB92;
+    color: #3D4A69;
+}
+
+.wrapper.dark {
+    background-color: #3D4A69;
+    color: #C4AB92;
+}
+
+.header{
+    padding: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header h1{
+    padding-right: 15px;
+}
+
+.container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}

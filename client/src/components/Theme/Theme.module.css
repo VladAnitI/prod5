@@ -1,0 +1,23 @@
+.theme-container {
+	width: 70px;
+	height: 40px;
+	background: gray;
+	border-radius: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.theme-toggler {
+	height: 30px;
+	width: 30px;
+	background: #000;
+	border-radius: 50%;
+	transition: 0.25s;
+}
+
+.theme-toggler.active {
+	transform: translateX(30px);
+}
